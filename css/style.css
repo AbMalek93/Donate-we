@@ -1,0 +1,618 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+img{
+    vertical-align: middle;
+}
+/* ====================
+Common Css End
+======================= */
+.header-full{
+    width: 100%;
+    height: 60px;
+ /* background-color: cornflowerblue; */
+}
+.header-full .header-content{
+    width: 1170px;
+    height: 60px;
+/*  background-color: darkgreen; */
+    margin: 0 auto;
+}
+.header-full .header-content .header-contact{
+    width: 470px;
+    height: 60px;
+ /* background-color: darksalmon; */
+    float: left;
+}
+.header-full .header-content .header-contact .phone-icon{
+    width: 200px;
+    height: 60px;
+/*  background: #0df39b; */
+    float: left;
+}
+.header-full .header-content .header-contact .phone-icon img{
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.header-full .header-content .header-contact .phone-icon h3{
+    float: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.header-full .header-content .header-contact .home-icon{
+    width: 270px;
+    height: 60px;
+ /* background: #0df39b; */
+    float: left;
+}
+.header-full .header-content .header-contact .home-icon img{
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.header-full .header-content .header-contact .home-icon h3{
+    float: left;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.header-full .header-content .header-donate{
+    width: 400px;
+    height: 60px;
+ /* background-color: #cd17e6; */
+    float: right;
+}
+.header-full .header-content .header-donate button{
+    width: 150px;
+    height: 40px;
+    background-color: #ff5714;
+    float: right;
+    margin-top: 10px;
+}
+/* ====================
+Header Css End
+======================= */
+.menu-full{
+    width: 100%;
+    height: 90px;
+    background: #563f4f;
+}
+.menu-full .menu-content{
+    width: 1170px;
+    height: 90px;
+ /* background: #f3d00d; */
+    margin: 0 auto;
+}
+.menu-full .menu-content .menu-logo{
+    width: 250px;
+    height: 90px;
+ /* background: #0df352; */
+    float: left;
+}
+.menu-full .menu-content .menu-list{
+    width: 710px;
+    height: 90px;
+ /* background: #370df3; */
+    float: right;
+
+}
+.menu-full .menu-content .menu-list ul{
+    list-style: none;
+}
+.menu-full .menu-content .menu-list ul li{
+    float: left;
+    position: relative;
+}
+.menu-full .menu-content .menu-list ul li a{
+    padding: 0 30px;
+    color: white;
+    line-height: 90px;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+.menu-full .menu-content .menu-list ul li:hover > a{
+    color: orangered;
+}
+.menu-full .menu-content .menu-list ul li ul{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+.menu-full .menu-content .menu-list ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 60px;
+}
+.menu-full .menu-content .menu-list ul li ul li{
+    float: none;
+}
+.menu-full .menu-content .menu-list ul li ul li a{
+    white-space: nowrap;
+    line-height: 30px;
+}
+
+/* ====================
+menu Css End
+======================= */
+.banner-full{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-full .banner-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.banner-full .banner-content{
+    width: 1170px;
+    height: 700px;
+ /* background: coral; */
+    margin: 0 auto;
+    line-height: 100px;
+}
+.banner-full .banner-overlay  .banner-content h3{
+    text-transform: initial;
+    color: white;
+    margin: 0 auto;
+    padding-top: 250px;
+    margin-left: 380px;
+    font-size: 50px;
+}
+.banner-full .banner-overlay  .banner-content h2{
+    text-transform: capitalize;
+    color: white;
+    font-size: 80px;
+    margin-left: 80px;
+}
+.banner-full .banner-overlay  .banner-content h2 span{
+    background-color: white;
+    color: #563f4f;
+}
+.banner-full .banner-overlay  .banner-content button{
+    width: 200px;
+    height: 60px;
+    background-color: #563f4f;
+    color: white;
+    margin-left: 480px;
+
+}
+.banner-full .banner-overlay  .banner-content button a{
+    color: white;
+}
+/* ====================
+Banner Css End
+======================= */
+
+.choose-full{
+    width: 100%;
+    height: 250px;
+ /* background-color: chocolate;  */
+}
+.choose-full .choose-content{
+    width: 1170px;
+    height: 250px;
+ /* background-color: #d21ec3; */
+    margin: 0 auto;
+    line-height: 50px;
+}
+.choose-full .choose-content h4{
+    margin-left: 520px;
+    padding-top: 40px;
+    color: red;
+}
+.choose-full .choose-content h1{
+    margin-left: 280px;
+    font-size: 60px;
+}
+.choose-full .choose-content h2{
+    margin-left: 440px;
+    font-size: 60px;
+    padding-top: 20px;
+}
+/* ====================
+Choose Css End
+======================= */
+.service-full{
+    width: 100%;
+    height: 400px;
+ /* background: #0d57e0; */
+}
+.service-full .service-content{
+    width: 1170px;
+    height: 400px;
+/* background: violet; */
+    margin: 0 auto;
+}
+.service-full .service-content .service-item{
+    width: 270px;
+    height: 370px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.service-full .service-content .service-item1{
+    background: aliceblue;
+}
+.service-full .service-content .service-item1 .school{
+    width: 150px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(../images/school.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-full .service-content .service-item1 h2{
+    line-height: 70px;
+    margin-left: 100px;
+}
+.service-full .service-content .service-item1 h4{
+    line-height: 25px;
+    margin-left: 30px;
+}
+.service-full .service-content .service-item2 {
+    background: aliceblue;
+}
+.service-full .service-content .service-item2 .hospital{
+    width: 150px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(../images/hospital.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-full .service-content .service-item2 h2{
+    line-height: 70px;
+    margin-left: 100px;
+}
+.service-full .service-content .service-item2 h4{
+    line-height: 25px;
+    margin-left: 30px;
+}
+.service-full .service-content .service-item3{
+    background: aliceblue;
+}
+.service-full .service-content .service-item3 .community{
+    width: 150px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(../images/community.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-full .service-content .service-item3 h2{
+    line-height: 70px;
+    margin-left: 80px;
+}
+.service-full .service-content .service-item3 h4{
+    line-height: 25px;
+    margin-left: 50px;
+}
+.service-full .service-content .service-item4{
+    background: aliceblue;
+}
+.service-full .service-content .service-item4 .award{
+    width: 150px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(../images/awards.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-full .service-content .service-item4 h2{
+    line-height: 70px;
+    margin-left: 100px;
+}
+.service-full .service-content .service-item4 h4{
+    line-height: 25px;
+    margin-left: 40px;
+}
+/* ====================
+service Css End
+======================= */
+.us-full{
+    width: 100%;
+    height: 500px;
+ /* background: #97c044; */
+}
+.us-full .us-content{
+    width: 1170px;
+    height: 500px;
+ /* background: mediumorchid; */
+    margin: 0 auto;
+}
+.us-full .us-content .us-item{
+    width: 560px;
+    height: 380px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.us-full .us-content .us-item1{
+ /* background: #df1774; */
+    line-height: 60px;
+}
+.us-full .us-content .us-item1 h4 {
+    margin-left: 20px;
+    margin-top: 50px;
+    color: red; 
+}
+.us-full .us-content .us-item1 h1{
+    margin-left: 20px;
+    font-size: 60px;
+    line-height: 60px;
+}
+.us-full .us-content .us-item1 h5{
+    margin-left: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.us-full .us-content .us-item1 button{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    background: #563f4f;
+    color: white;
+    margin-top: 20px;
+}
+.us-full .us-content .us-item1 button a{
+    color: white;
+}
+.us-full .us-content .us-item2{
+  /* background: #1111c0; */
+    background-image: url(../images/ab-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ====================
+us Css End
+======================= */
+.hunger-full{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hunger-full .hunger-content{
+    width: 1170px;
+    height: 600px;
+ /* background: brown; */
+    margin: 0 auto;
+}
+.hunger-full .hunger-content .hunger-text{
+    width: 550px;
+    height: 450px;
+    background: #563f4f;
+    float: left;
+    margin-top: 80px;
+}
+.hunger-full .hunger-content .hunger-text h1{
+    margin-left: 20px;
+    padding-top: 60px;
+    font-size: 50px;
+}
+.hunger-full .hunger-content .hunger-text h4{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.hunger-full .hunger-content .hunger-text .box{
+        width: 460px;
+        height: 30px;
+       background: #1609cf; 
+       margin-left: 20px;
+       margin-top: 20px;
+}
+.hunger-full .hunger-content .hunger-text .box input{
+    width: 460px;
+    height: 30px;
+}
+.hunger-full .hunger-content .hunger-text .button button{ 
+    width: 150px;
+    height: 40px;
+    background: brown;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.hunger-full .hunger-content .hunger-text .button button a{
+     color: black;
+}
+
+/* ====================
+hunger Css End
+======================= */
+.sm-full{
+    width: 100%;
+    height: 130;
+}
+.sm-full .sm-content{
+    width: 1170px;
+    height: 130px;
+ /* background: mediumspringgreen; */
+    margin: 0 auto;
+}
+.sm-full .sm-content h3{
+    margin-left: 520px;
+    line-height: 50px;
+    margin-top: 40px;
+    color: red;
+}
+.sm-full .sm-content h1{
+    margin-left: 440px;
+    line-height: 30px;
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+/* ====================
+sm Css End
+======================= */
+.server-full{
+    width: 100%;
+    height: 450px;
+}
+.server-full .server-content{
+    width: 1170px;
+    height: 450px;
+ /*   background: mediumspringgreen; */
+    margin: 0 auto;
+}
+.server-full .server-content .server1-item{
+    width: 550px;
+    height: 450px;
+ /*   background: navy; */
+    float: left;
+}
+.server-full .server-content .server1-item .server1-item{
+    width: 550px;
+    height: 130px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.server-full .server-content .server1-item .server1-item1{
+ /*  background: slateblue; */
+}
+.server-full .server-content .server1-item .server1-item1 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item1 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item1 .server1-logo1{
+    width: 130px;
+    height: 130px;
+ /*   background: #7e0808; */
+    float: left;
+}
+.server-full .server-content .server1-item .server1-item2{
+ /*   background: #db05ad; */
+}
+.server-full .server-content .server1-item .server1-item2 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item2 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item2 .server1-logo2{
+    width: 130px;
+    height: 130px;
+ /*   background: #7ef113; */
+    float: left;
+}
+.server-full .server-content .server1-item .server1-item3{
+ /*   background: #13faee; */
+}
+.server-full .server-content .server1-item .server1-item3 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item3 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server1-item .server1-item3 .server1-logo3{
+    width: 130px;
+    height: 130px;
+  /*  background: #082d7e; */
+    float: left;
+}
+.server-full .server-content .server2-item{
+    width: 550px;
+    height: 450px;
+ /*   background: #4f8000; */
+    float: right;
+}
+.server-full .server-content .server2-item .server2-item{
+    width: 550px;
+    height: 130px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.server-full .server-content .server2-item .server2-item1{
+  /*  background: #a9ff09; */
+}
+.server-full .server-content .server2-item .server2-item1 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item1 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item1 .server2-logo1{
+    width: 130px;
+    height: 130px;
+ /*   background: #082d7e; */
+    float: left;
+}
+.server-full .server-content .server2-item .server2-item2{
+ /*   background: #db0505; */
+}
+.server-full .server-content .server2-item .server2-item2 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item2 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item2 .server2-logo2{
+    width: 130px;
+    height: 130px;
+  /*  background: #082d7e; */
+    float: left;
+}
+.server-full .server-content .server2-item .server2-item3{
+   /* background: #4513fa; */
+}
+.server-full .server-content .server2-item .server2-item3 h1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item3 h4{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.server-full .server-content .server2-item .server2-item3 .server2-logo3{
+    width: 130px;
+    height: 130px;
+ /*   background: #517e08; */
+    float: left;
+}
+/* ====================
+Common Css End
+======================= */
+/* ====================
+Common Css End
+======================= */
+/* ====================
+Common Css End
+======================= */
